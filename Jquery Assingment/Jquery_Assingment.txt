@@ -1,0 +1,29 @@
+1. What is jQuery? 
+==> jQuery is a small, light-weight and fast JavaScript library. It is cross-platform and supports 
+    different types of browsers. It is also referred as ?write less do more? because it takes a lot of
+    common tasks that requires many lines of JavaScript code to accomplish, and binds them into methods
+    that can be called with a single line of code whenever needed. It is also very useful to simplify a lot
+    of the complicated things from JavaScript, like AJAX calls and DOM manipulation.
+
+
+2. How to Apply CSS Using JQuery, How to Add Class and Remove Class in Jquery, JQuery Animation?
+==> css() method to apply CSS style on the given webpage. jQuery is a javascript library that helps us 
+    manipulate the DOM easily and efficiently using its various helper methods and properties. 
+    It allows us to add interactivity to the DOM as well as add and change the CSS styles of the DOM
+    elements.
+
+    To add the CSS classes to an element we use addClass() method, and to remove the CSS classes we use 
+    removeClass() method.
+
+
+3. How to create slider with animation? 
+==> The jQuery animate() method is used to create custom animations.
+    syntax:
+        $(selector).animate({params},speed,callback);
+
+        The required params parameter defines the CSS properties to be animated.
+
+    Example:
+        $("button").click(function(){
+            $("div").animate({left: '250px'});
+        }); 
