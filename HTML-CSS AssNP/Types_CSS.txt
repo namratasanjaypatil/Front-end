@@ -1,0 +1,22 @@
+(1) Inline CSS :
+
+    <style> </style>
+
+
+(2) Internal CSS :
+
+    <head>
+        <style> </style>
+    </head>
+
+
+(3) External CSS :
+
+    <head>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+    </head>
+
+
+(4) Inline Styles :
+
+    <div style="color: red; font-size: 16px;">This is some text.</div>

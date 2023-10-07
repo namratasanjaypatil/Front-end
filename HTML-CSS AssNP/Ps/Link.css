@@ -1,0 +1,14 @@
+a:link {
+    font-size: 30px;
+    font-weight: 600;
+    padding: 20px;
+}
+
+a:visited {
+    color: #076c09; 
+}
+
+a:hover {
+    color: #ec210e;
+    text-decoration: underline;
+}
